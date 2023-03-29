@@ -1,11 +1,13 @@
 package com.example.demo.Service;
 
+import java.util.List;
+
 import com.example.demo.Entity.Restaurant;
 
 public interface RestaurantService {
 
-	Restaurant saveRestaurant(Restaurant restaurant);
+	public Restaurant saveRestaurant(Restaurant restaurant);
 	
-	
+	public List<Restaurant> getAllRestaurant();
 
 }
